@@ -8,7 +8,7 @@ Les interfaces configurées sont `enp0f3s0` et `enp0f3s1` par défaut. En cas de
 **A noter:** Les repos sélectionnés sont des repos français par défaut.
 
 ---
-##Intructions d'installation
+## Intructions d'installation
 * Télécharger le repo et le placer à la racine d'une clé usb, autrement le script ne trouvera pas les fichiers
 * Brancher la clé usb dans le serveur une fois celui ci démarré
 * Créer un point de montage et monter la clé USB: `mkdir /mnt/usb1 && mount /dev/sdb /mnt/usb1`
