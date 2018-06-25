@@ -12,6 +12,6 @@ Les interfaces configurées sont `enp0f3s0` et `enp0f3s1` par défaut. En cas de
 * Télécharger le repo et le placer à la racine d'une clé usb, autrement le script ne trouvera pas les fichiers
 * Brancher la clé usb dans le serveur une fois celui ci démarré
 * Créer un point de montage et monter la clé USB: `mkdir /mnt/usb1 && mount /dev/sdb /mnt/usb1`
-* Rendre le scipt executable: `chmod +x /mnt/usb1/network-setup.sh
+* Rendre le scipt executable: `chmod +x /mnt/usb1/network-setup.sh`
 * Executer le script en tant que `su`
-** `./mnt/usb1/network-setup.sh`
+    * `./mnt/usb1/network-setup.sh`
