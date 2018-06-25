@@ -2,8 +2,9 @@
 ----
 Ce script vise à configurer et initialiser les cartes réseau **Broadcom Corporation NetXtreme II** présentes sur les serveurs **GL380 G7**
 
->Les interfaces configurées sont `enp0f3s0` et `enp0f3s1` par défaut. En cas de différence, éditer le nom des interfaces dans le fichier `/debifiles/interfaces`
+Les interfaces configurées sont `enp0f3s0` et `enp0f3s1` par défaut. En cas de différence, éditer le nom des interfaces dans le fichier `/debifiles/interfaces`
 >Les interfaces récupèrent automatiquement une IP depuis le serveur DHCP (plus simple pour la configuration). Au cas ou une IP fixe est préférée, il suffit de modifier `/etc/network/interfaces` sur le serveur.
+
 **A noter:** Les repos sélectionnés sont des repos français par défaut.
 
 ---
