@@ -2,8 +2,8 @@
 auto lo
 iface lo inet loopback
 
-auto enp0f3s1
-iface enp0f3s1 inet dhcp
+auto enp3s0f0
+iface enp3s0f0 inet dhcp
 
-auto enp0f3s1
-iface enp0f3s1 inet dhcp
+#auto enp3s0f1
+#iface enp3s0f1 inet dhcp

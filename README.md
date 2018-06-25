@@ -1,9 +1,9 @@
-# Configuration des cartes réseau pour serveur HP GL380 G7
+# Configuration des cartes réseau pour serveur HP GL380 G7 sous un OS basé sur Debian
 ----
-Ce script vise à configurer et initialiser les cartes réseau **Broadcom Corporation NetXtreme II** présentes sur les serveurs **GL380 G7**
+Ce script vise à configurer et initialiser la carte réseau **Broadcom Corporation NetXtreme II** présente sur les serveurs **GL380 G7**, utilisant un OS basé sur Debian ou Debian lui-même.
 
-Les interfaces configurées sont `enp0f3s0` et `enp0f3s1` par défaut. En cas de différence, éditer le nom des interfaces dans le fichier `debifiles/interfaces`
->Les interfaces récupèrent automatiquement une IP depuis le serveur DHCP (plus simple pour la configuration). Au cas ou une IP fixe est préférée, il suffit de modifier `/etc/network/interfaces` sur le serveur.
+L'interface configurée est `enp3s0f0` par défaut. En cas de différence, éditer le nom de l'interface dans le fichier `debifiles/interfaces`
+>L'interface récupère automatiquement une IP depuis le serveur DHCP (plus simple pour la configuration). Au cas ou une IP fixe est préférée, il suffit de modifier `/etc/network/interfaces` sur le serveur.
 
 **A noter:** Les repos sélectionnés sont des repos français par défaut.
 
