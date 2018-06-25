@@ -13,6 +13,6 @@ dhclient -r enp0f3s0
 dhclient enp0f3s0
 echo "Edition du fichier sources.list..."
 mv /mnt/usb1/debifiles/sources.list /etc/apt/sources.list
-echo "source.list édité avec succès..."
+echo "sources.list édité avec succès..."
 apt update
 echo "Votre machine devrait être connectée à internet et dispose de mirroirs de paquets"

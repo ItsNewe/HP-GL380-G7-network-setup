@@ -1,3 +1,9 @@
 # interfaces(5) file used by ifup(8) and ifdown(8)
 auto lo
 iface lo inet loopback
+
+auto enp0f3s1
+iface enp0f3s1 inet dhcp
+
+auto enp0f3s1
+iface enp0f3s1 inet dhcp
